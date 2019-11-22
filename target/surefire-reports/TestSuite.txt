@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 85.739 sec <<< FAILURE!
+testWithSuccessRegistration(ecomm_saipratap.RegistrationTest)  Time elapsed: 7.477 sec  <<< FAILURE!
+java.lang.AssertionError: expected [http://ecommerce.saipratap.net/thankyoumessage.php?msg=reg] but found [http://ecommerce.saipratap.net/customer.php]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at ecomm_saipratap.RegistrationTest.testWithSuccessRegistration(RegistrationTest.java:40)
+

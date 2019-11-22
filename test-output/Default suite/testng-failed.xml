@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.apex.samples.ECommLoginTest">
+        <methods>
+          <include name="testWithSuccessLogin"/>
+          <include name="testWithBlankLogin"/>
+          <include name="testWithBothBlank"/>
+          <include name="testWithInvalidLogin"/>
+          <include name="testWithBlankPassword"/>
+        </methods>
+      </class> <!-- com.apex.samples.ECommLoginTest -->
+      <class name="ecomm_saipratap.PlaceOrderTest">
+        <methods>
+          <include name="placeOrderWithSuccessData"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ecomm_saipratap.PlaceOrderTest -->
+      <class name="ecomm_saipratap.LoginTest">
+        <methods>
+          <include name="testWithBlankLogin"/>
+          <include name="testWithSuccessLogin"/>
+          <include name="setUp"/>
+          <include name="testWithBlankPassword"/>
+          <include name="testWithInvalidLogin"/>
+          <include name="testWithBothBlank"/>
+        </methods>
+      </class> <!-- ecomm_saipratap.LoginTest -->
+      <class name="com.apex.samples.GoogleLoginPage_Testng">
+        <methods>
+          <include name="testWithCharacters"/>
+          <include name="testWithNumbers"/>
+          <include name="setUp"/>
+          <include name="testWithSuccessData"/>
+          <include name="testWithBlankData"/>
+        </methods>
+      </class> <!-- com.apex.samples.GoogleLoginPage_Testng -->
+      <class name="ecomm_saipratap.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testWithPasswordAndConfirmpassword"/>
+          <include name="testWithSuccessRegistration"/>
+        </methods>
+      </class> <!-- ecomm_saipratap.RegistrationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
